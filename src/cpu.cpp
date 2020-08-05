@@ -463,7 +463,7 @@ static int setup_thread_affinity_masks()
     // TODO implement me for other platforms
     CPU_ZERO(&g_thread_affinity_mask_little);
     g_thread_affinity_mask_big = g_thread_affinity_mask_all;
-#endifon 
+#endif
 
     return 0;
 }
